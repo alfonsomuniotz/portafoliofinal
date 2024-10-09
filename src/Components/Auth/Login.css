@@ -1,0 +1,84 @@
+.Login {
+    display: 'flex';
+    background-image: url("../../images/LOGIN.jpg");
+    background-size: 105%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .Login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .Login .Column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Login .Column .Cards {
+    max-width: 500px;
+  }
+  
+  .Login .Column .Cards .titBox {
+    background-color: #f7ac3d;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 2px
+  }
+  
+  .Login .Column .Cards .tit {
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Login .Column .Cards .tit2 {
+    justify-content: center;
+    align-items: center;
+    background-color: #f7ac3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .Login .Column .Cards .bton {
+    background-color: #f7ac3d;
+    color: white;
+    font-weight: bold;
+    font-size: 18px
+  }
+  
+  
+  
+  
+  @media (max-width: 768px) {
+    .Login .Column .Cards .tit2,
+    .Login .Column .Cards .bton{
+      font-size: 12px;
+    }
+  
+    .Login .Column .Cards .tit{
+      font-size: 30px;
+    }
+  
+    .Login .Column .Cards .text{
+      font-size: 12px;
+    }
+  
+    .Login .Column .Cards{
+      margin: 10px;
+    }
+  
+    .Login{
+      background-size: auto;
+    }
+  }
